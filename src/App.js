@@ -48,7 +48,7 @@ const LocationComponent = () => {
         location ? (
           <div>
             {/* <p>Your location is  Latitude: {location.latitude}, Longitude: {location.longitude}</p> */}
-            {city && <p>Your city is: {city}</p>}
+            {city && <p>	📍 {city}</p>}
           </div>
         ) : <p>Loading...</p>}
     </div>
